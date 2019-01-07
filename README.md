@@ -3,10 +3,10 @@
 required packages: tensorflow, fensorflow_hub, scipy, numpy, logging
 
 ### Included Files   
-* MoralChoiceMachine  --- core algorithms 
-* data.py             --- input data for different experiments that are reported in the paper
-* experiments.py      --- calls of basic experiments
-* util.py             --- side functions
+* MoralChoiceMachine.py     --- core algorithms 
+* data.py                   --- input data for different experiments that are reported in the paper
+* experiments.py            --- calls of basic experiments
+* util.py                   --- side functions
 
 ### Description
 Sentence embeddings allow one to calculate the cosine similarity of various different sentences, as for instance the similarity of a question and the corresponding answer. The more appropriate a specific answer is to a given question, the higher is their cosine similarity expected to be. When considering two opposite answers, it is therefore possible to determine a bias value.
